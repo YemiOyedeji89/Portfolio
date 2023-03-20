@@ -18,6 +18,7 @@ function App() {
       <div className="App jumbotron">
         <Navbar/>
         <Routes>
+          
          <Route path="/" element={<Home />} />
          <Route path="projectgallery/*" element={<ProjectGallery/>} />
          <Route path="projectgallery/:id" element={<ProjectDetails/>} />
